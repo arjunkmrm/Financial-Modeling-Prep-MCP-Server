@@ -445,6 +445,14 @@ npm run dev -- --port=4000 --fmp-token=YOUR_TOKEN
 
 ```
 
+### Installing via Smithery
+
+To install Financial Modeling Prep for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@imbenrabi/financial-modeling-prep-mcp-server):
+
+```bash
+npx -y @smithery/cli install @imbenrabi/financial-modeling-prep-mcp-server --client claude
+```
+
 ### Docker Usage
 
 Docker deployment supports all configuration methods with proper environment variable handling.
